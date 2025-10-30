@@ -3,20 +3,12 @@
 
 ## Overview
 
-This is a simple Library Management System built using PostgreSQL.  
+This project is a simple Library Management System built with PostgreSQL.  
 It manages books, authors, and patrons.  
 
-This file contains all SQL commands required to:
-- Create tables
-- Insert data
-- Query data
-- Update data
-- Delete data
-- Run advanced queries
+Below are all the SQL commands required to create the database, insert data, query, update, delete, and run advanced operations.
 
-You can run these commands in **pgAdmin 4** or **psql**.
-
-## How to Run
+## Instructions
 
 ### In pgAdmin 4:
 1. Open pgAdmin 4 and connect to your PostgreSQL server.  
@@ -31,8 +23,7 @@ You can run these commands in **pgAdmin 4** or **psql**.
 3. Connect to your database: `\c librarydb`  
 4. Copy and paste the SQL commands below and execute them.
 
----
-
+```sql
 -- CREATE TABLES
 CREATE TABLE authors (
     id SERIAL PRIMARY KEY,
